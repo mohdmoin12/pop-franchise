@@ -28,14 +28,14 @@ const MainSlider = () => {
                 <div className="main-slider__text-content">
                   <h2 className="main-slider__title">
                     <br />
-                   h
+                    Own a Pop Phones 
                     <br />
-                    <span>h</span>
+                    <span>Franchise</span>
                   </h2>
                    <p className="main-slider__text">
-                    Car service is essential for maintaining the performance and
+                   Be Part of One of Australia's Fastest Growing
                     <br />
-                    longevity of your vehicle. From oil changes Car service
+                    Mobile Phone & Accessories Brands
                   </p> 
                    <div className="main-slider__btn-and-video-box">
                     <div className="main-slider__btn-box">

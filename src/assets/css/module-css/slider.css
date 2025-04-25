@@ -50,7 +50,7 @@
 
     .main-slider__title {
         position: relative;
-        text-align: center;
+        text-align: left;
         display: block;
         font-size: 72px;
         color: var(--crank-white);
