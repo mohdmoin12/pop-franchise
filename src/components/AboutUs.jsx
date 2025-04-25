@@ -19,13 +19,14 @@ const AboutUs = () => {
               <span className="section-title__tagline">AboUt Us</span>
             </div>
             <h2 className="section-title__title title-animation sec-heading">
-              Fast and Reliable Car Care Your Car Our Priority
+            What We Offer
             </h2>
           </div>
           <p className="about-one__text-1 sec-heading">
-            Car service is essential for maintaining the performance and
+           
+With 18 successful stores across Australia and counting, Pop Phones has become a trusted name in mobile devices, accessories, repairs, and unbeatable customer service
             <br />
-            longevity of your vehicle. From oil changes
+            Now, we're offering franchise opportunities to passionate entrepreneurs ready to join our journey and bring Pop Phones to even more communities.
           </p>
           <ul className="list-unstyled about-one__points sec-heading">
             <li>
@@ -33,7 +34,7 @@ const AboutUs = () => {
                 <span className="icon-double-arrow-right" />
               </div>
               <div className="text sec-heading">
-                <p>Fast and Reliable Car Care Your Car Our Priority</p>
+                <p>Mobile Phones (New & Pre-Owned)</p>
               </div>
             </li>
             <li>
@@ -41,7 +42,7 @@ const AboutUs = () => {
                 <span className="icon-double-arrow-right" />
               </div>
               <div className="text">
-                <p>Free with Our Services Care for Your Car</p>
+                <p>Accessories (Chargers, Cases, Screen Protectors & more)</p>
               </div>
             </li>
             <li>
@@ -49,7 +50,7 @@ const AboutUs = () => {
                 <span className="icon-double-arrow-right" />
               </div>
               <div className="text">
-                <p>Top-notch Care for Your Vehicle Your Vehicle</p>
+                <p>Repairs & Tech Services</p>
               </div>
             </li>
             <li>
@@ -57,7 +58,7 @@ const AboutUs = () => {
                 <span className="icon-double-arrow-right" />
               </div>
               <div className="text">
-                <p>Expert Service for Your Vehicle Drive Stress</p>
+                <p>Buy-Back & Trade-In Programs</p>
               </div>
             </li>
             <li>
@@ -65,7 +66,7 @@ const AboutUs = () => {
                 <span className="icon-double-arrow-right" />
               </div>
               <div className="text">
-                <p>Your Trusted Car Service Provider Keeping</p>
+                <p>Friendly, Knowledgeable Customer Service</p>
               </div>
             </li>
           </ul>
