@@ -92,7 +92,7 @@ const CarRepair = () => {
       >
         <div className="contact-one__right">
           <div className="contact-one__img">
-            <img src="public/resources/contact-one-img-1.png" alt="" />
+            <img src="/resources/contact-one-img-1.png" alt="" />
             <div className="contact-one__img-shape-1">
               <img src="images/shapes/contact-one-img-shape-1.png" alt="" />
             </div>

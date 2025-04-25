@@ -81,7 +81,7 @@ const AboutUs = () => {
             <div className="about-one__img-shape-1 float-bob-y-2" />
             <div className="about-one__img-shape-2 float-bob-x-2" />
             <div className="about-one__img">
-              <img src="public/gallery/gallery-4-2.jpg" alt="" />
+              <img src="/gallery/gallery-4-2.jpg" alt="" />
               <div className="about-one__content-box">
                 <div className="about-one__content-icon">
                   <span className="icon-auto-machanic-shop" />

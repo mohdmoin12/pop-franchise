@@ -152,7 +152,7 @@ function App() {
       {/* <MainService /> */}
       <Services />
       <AboutUs />
-      <Review />
+      {/*<Review />*/}
          <Gallery />
       <FAQ />
        {/* <Cta /> */}
