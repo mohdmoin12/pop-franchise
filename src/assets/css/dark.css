@@ -4,7 +4,8 @@ body .team-one__plus,
 .pricing-one__icon-box,
 .contact-one__experience,
 .services-one__single {
-    background-color: var(--crank-black);
+    /* background-color: var(--crank-black); */
+    background-color: white;
 }
 
 
@@ -23,7 +24,7 @@ body .team-one__plus,
 .brand-one__inner,
 .services-one__inner,
 .counter-one__inner {
-    background-color: var(--crank-blac);
+    background-color: var(--crank-white);
 }
 
 

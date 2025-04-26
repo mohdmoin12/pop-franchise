@@ -4,90 +4,122 @@
 .counter-one {
     position: relative;
     display: block;
-    margin-top: -80px;
     z-index: 10;
     margin-top: 0px;
-}
-
-
-.counter-one__inner {
+  }
+  
+  .counter-one__inner {
     position: relative;
     display: block;
-    background-color: var(--crank-white);
+    background-color: var(--crank-white, white);
     padding: 33px 65px 44px;
     box-shadow: 0px 0px 60px rgba(0, 0, 0, 0.05);
     border-radius: 20px;
-}
-
-.counter-one__list {
+    margin-top: -76px;
+  }
+  
+  .counter-one__list {
     position: relative;
     display: flex;
     align-items: center;
     justify-content: space-between;
-}
-
-.counter-one__list li {
+    width: 100%;
+  }
+  
+  .counter-one__list li {
     position: relative;
     display: block;
-}
-
-.counter-one__list li:before {
+    padding: 0 20px;
+  }
+  
+  .counter-one__list li:before {
     content: "";
     position: absolute;
     top: 18px;
-    left: -100px;
+    right: 0;
     bottom: 7px;
     width: 1px;
-    background-color: var(--crank-bdr-color);
-}
-
-.counter-one__list li:first-child:before {
+    height: 70%;
+    background-color: var(--crank-bdr-color, #e5e5e5);
+  }
+  
+  .counter-one__list li:last-child:before {
     display: none;
-}
-
-.counter-one__single {
+  }
+  
+  .counter-one__single {
     position: relative;
     display: block;
-}
-
-.counter-one__count-box {
+    text-align: center;
+  }
+  
+  .counter-one__count-box {
     position: relative;
     display: flex;
     align-items: center;
+    justify-content: center;
     flex-wrap: wrap;
-}
-
-.counter-one__count-box h3 {
+  }
+  
+  .counter-one__count-box h3 {
     font-size: 72px;
     line-height: 84px !important;
     letter-spacing: -0.02em;
-    font-family: var(--crank-font-two) !important;
+    font-family: var(--crank-font-two, sans-serif) !important;
     font-weight: 600;
-    color: aliceblue;
-}
-
-.gallery-one__top-text p{
-    color: white !important;
-}
-.section-title__title  {
-    color: white !important;
-}
-
-.counter-one__count-box>span {
+    color: var(--crank-black, #222222);
+  }
+  
+  .counter-one__count-box > span {
     font-size: 72px;
     line-height: 84px;
     letter-spacing: -0.02em;
     font-weight: 600;
-    font-family: var(--crank-font-two);
+    font-family: var(--crank-font-two, sans-serif);
     position: relative;
     display: block;
     top: -3px;
-}
-
-.counter-one__text {
+    color: var(--crank-black, #222222);
+  }
+  
+  .counter-one__text {
     margin-top: 6px;
-}
-
+    font-size: 18px;
+    color: var(--crank-gray, #777777);
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 991px) {
+    .counter-one__inner {
+      padding: 25px 30px 35px;
+    }
+    
+    .counter-one__count-box h3,
+    .counter-one__count-box > span {
+      font-size: 54px;
+      line-height: 64px;
+    }
+    
+    .counter-one__text {
+      font-size: 16px;
+    }
+  }
+  
+  @media (max-width: 767px) {
+    .counter-one__list {
+      flex-direction: column;
+      gap: 30px;
+    }
+    
+    .counter-one__list li:before {
+      display: none;
+    }
+    
+    .counter-one__list li {
+      width: 100%;
+      padding: 0;
+    }
+  }
 
 /*--------------------------------------------------------------
   # Counter Two

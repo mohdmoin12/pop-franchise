@@ -6,7 +6,7 @@
     display: block;
     padding: 120px 0 0;
     z-index: 1;
-    background-color: var(--crank-black);
+    background-color:white;
 }
 
 .services-one__inner {
@@ -15,7 +15,7 @@
     background-color: var(--crank-white);
     max-width: 1710px;
     width: 100%;
-    margin: -158px auto 0;
+    margin: -81px auto 0;
     padding: 120px 15px 90px;
     border-radius: 60px;
 }
@@ -23,7 +23,7 @@
 .services-one__single {
     position: relative;
     display: block;
-    border: 2px solid var(--crank-white);
+    border: 2px solid var(--crank-black);
     border-radius: 20px;
     text-align: center;
     padding: 30px 30px 25px;

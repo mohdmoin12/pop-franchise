@@ -15,20 +15,20 @@ const AboutUs = () => {
       <div className="col-xl-6">
         <div className="about-one__left">
           <div className="section-title text-left sec-title-animation animation-style2">
-            <div className="section-title__tagline-box">
-              <span className="section-title__tagline">AboUt Us</span>
+            <div className="section-title__tagline-boxx">
+              <span className="text-black ">AboUt Us</span>
             </div>
-            <h2 className="section-title__title title-animation sec-heading">
+            <h2 className="about-one__text-1 ">
             What We Offer
             </h2>
           </div>
-          <p className="about-one__text-1 sec-heading">
+          <p className="about-one__text-1 ">
            
 With 18 successful stores across Australia and counting, Pop Phones has become a trusted name in mobile devices, accessories, repairs, and unbeatable customer service
             <br />
             Now, we're offering franchise opportunities to passionate entrepreneurs ready to join our journey and bring Pop Phones to even more communities.
           </p>
-          <ul className="list-unstyled about-one__points sec-heading">
+          <ul className="list-unstyled about-one__points ">
             <li>
               <div className="icon">
                 <span className="icon-double-arrow-right" />
@@ -82,8 +82,8 @@ With 18 successful stores across Australia and counting, Pop Phones has become a
             <div className="about-one__img-shape-1 float-bob-y-2" />
             <div className="about-one__img-shape-2 float-bob-x-2" />
             <div className="about-one__img">
-              <img src="/gallery/gallery-4-2.jpg" alt="" />
-              <div className="about-one__content-box">
+              <img src="/resources/g1.jpeg" alt="" />
+              {/* <div className="about-one__content-box">
                 <div className="about-one__content-icon">
                   <span className="icon-auto-machanic-shop" />
                 </div>
@@ -92,7 +92,7 @@ With 18 successful stores across Australia and counting, Pop Phones has become a
                   Car service is essential for maintaining the performance and
                   longevity Car service is essential maintaining
                 </p>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>

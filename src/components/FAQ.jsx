@@ -27,24 +27,7 @@ const faqs = [
     answer:
       "Turn it off immediately and do not charge it. Bring it to us as soon as possible for professional drying and repair to prevent further damage.  ",
   },
-  {
-    id: 5,
-    question: "Do I need an appointment for a repair?",
-    answer:
-      "While walk-ins are welcome, we recommend booking an appointment online to ensure faster service.  ",
-  },
-  {
-    id: 6,
-    question: "Do you repair all phone brands?",
-    answer:
-      "Yes! We repair iPhones, Samsung, Google Pixel, OnePlus, and many other brands.    ",
-  },
-  {
-    id: 7,
-    question: "How can I track my repair status?",
-    answer:
-      "You’ll receive real-time updates via SMS or email. You can also contact us anytime for a status update.   ",
-  },
+
 
 ];
 
@@ -60,11 +43,11 @@ const FAQ = () => {
       <div className="container">
         <div className="section-title text-center sec-title-animation animation-style1">
           <div className="section-title__tagline-box">
-            <span className="section-title__tagline">FAQs</span>
+            <span className="text-black">FAQs</span>
           </div>
           <h2
-            className="section-title__title title-animation"
-            style={{ color: "white" }}
+            className="text-black"
+            
           >
             Got Questions? We've <br />
             Got Answers

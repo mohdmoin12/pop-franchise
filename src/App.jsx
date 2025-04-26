@@ -142,7 +142,7 @@ function App() {
       {isSidebarOpen && <Sidebar setIsSidebarOpen={setIsSidebarOpen} />}
 
       <MainSlider />
-      {/* <Quality /> */}
+      <Quality />
       {/* <Stepper /> */}
       {/* <StepperForm /> */}
   

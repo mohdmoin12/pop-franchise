@@ -6,7 +6,7 @@
     display: block;
     padding: 120px 0 0;
     z-index: 1;
-    background-color: var(--crank-black);
+    background-color: #F4F4F4;
 }
 
 .gallery-one__top {

@@ -41,8 +41,8 @@
 
 
 :root {
-  --crank-font: "Poppins", sans-serif;
-  --crank-font-two: "Archivo", sans-serif;
+  --crank-font: 'Poppins', sans-serif;
+  --crank-font-two: 'Archivo', sans-serif;
   --crank-gray:#fed700;
   --crank-gray-rgb: 23, 8, 10;
   --crank-base: #fed700;
@@ -68,7 +68,7 @@ body {
   display: block;
   font-family: var(--crank-font);
   color: var(--crank-gray);
-  font-size: 16px;
+  font-size: 18px;
   line-height: 25px;
   font-weight: 400;
   z-index: 1;
@@ -272,6 +272,11 @@ ul {
 .section-title__tagline-box {
   position: relative;
   display: block;
+}
+.section-title__tagline-boxx {
+  position: relative;
+  display: block;
+  text-align: left;
 }
 
 .section-title__tagline {
@@ -2172,6 +2177,7 @@ ul {
 .carousel-dot-style.owl-carousel .owl-item.active {
   opacity: 1;
   visibility: visible;
+
 }
 
 .carousel-dot-style.owl-carousel .owl-dots {
@@ -2273,12 +2279,7 @@ input {
 # End
 --------------------------------------------------------------*/
 
-.sec-heading{
-  color: white !important;
-}
-.sec-heading p{
-  color: white !important;
-}
+
 
 .footer-img {
   height: 20px;
@@ -2433,8 +2434,13 @@ input {
   z-index: 9998;
 }
 
-.text-white {
-  color: #ffffff !important;
+.text-black {
+  color: black !important;
+}
+
+.text-blackss {
+  color: black !important;
+  text-align: left;
 }
 
 .services-one__title.sec {
@@ -2445,7 +2451,52 @@ input {
   color: #fff !important;
 }
 
+/* Add this CSS to your stylesheet */
+.owl-nav,
+.owl-prev,
+.owl-next {
+  display: none !important;
+}
 
-  
-  
+/* Put this in your global CSS file or component-specific CSS */
+.owl-nav {
+  display: none !important;
+}
+
+.owl-prev,
+.owl-next {
+  display: none !important;
+}
+
+
+  /* Hide all owl nav buttons */
+.owl-nav,
+.owl-prev,
+.owl-next,
+.main-slider__carousel .owl-nav,
+.main-slider__carousel .owl-prev,
+.main-slider__carousel .owl-next,
+.main-slider__carousel .owl-nav button,
+.main-slider__carousel button.owl-prev,
+.main-slider__carousel button.owl-next {
+  display: none !important;
+  visibility: hidden !important;
+  opacity: 0 !important;
+  pointer-events: none !important;
+}
+
+.section-title__title {
+  color: black; 
+}
+
+.text-black {
+  color: black !important;
+}
+.text-blacks {
+  color: white !important;
+}
+
+
+
+
 }

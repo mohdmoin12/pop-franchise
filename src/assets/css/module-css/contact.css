@@ -6,7 +6,7 @@
     display: block;
     padding: 0px 0 58px;
     z-index: 1;
-    background-color: var(--crank-black);
+    background-color:#F4F4F4;
 }
 
 .contact-one__left {

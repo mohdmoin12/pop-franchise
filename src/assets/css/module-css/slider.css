@@ -40,6 +40,7 @@
     border-radius: 60px;
     z-index: 10;
     margin-top: 207px;
+    padding: 118px;
 }
 
 .main-slider__content {
@@ -251,7 +252,7 @@
 }
 
 
-
+/* 
 .main-slider .owl-theme .owl-nav {
     position: absolute;
     top: 47%;
@@ -269,7 +270,7 @@
     height: 0;
     line-height: 0;
     transform: translateY(-50%);
-}
+} */
 
 .main-slider .owl-theme .owl-nav [class*=owl-] {
     position: relative;

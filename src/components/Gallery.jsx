@@ -11,11 +11,11 @@ const Gallery = () => {
                 <div className="gallery-one__top-left">
                   <div className="section-title text-left sec-title-animation animation-style2">
                     <div className="section-title__tagline-box">
-                      <span className="section-title__tagline">
+                      <span className="text-black">
                       Highlights 
                       </span>
                     </div>
-                    <h2 className="section-title__title title-animation">
+                    <h2 className="text-black">
                     Expert Repairs, Guaranteed Quality!  <br />
                    
                     </h2>
@@ -23,7 +23,7 @@ const Gallery = () => {
                 </div>
               </div>
               <div className="col-xl-5">
-                <div className="gallery-one__top-text">
+                <div className="text-black">
                   <p>
                   No matter the issue, we’ve got the perfect solution for your phone
                   </p>
