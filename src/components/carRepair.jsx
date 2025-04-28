@@ -1,30 +1,25 @@
 import React, { useState } from "react";
+import ReCAPTCHA from "react-google-recaptcha";
 
 const CarRepair = () => {
-  const [captcha, setCaptcha] = useState('nf68Vj');
   const [selectedState, setSelectedState] = useState('');
+  const [captchaValue, setCaptchaValue] = useState(null);
   
-  const generateCaptcha = () => {
-    const characters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
-    let result = '';
-    const charactersLength = characters.length;
-    for (let i = 0; i < 6; i++) {
-      result += characters.charAt(Math.floor(Math.random() * charactersLength));
-    }
-    setCaptcha(result);
-  };
-
   const handleStateChange = (e) => {
     setSelectedState(e.target.value);
   };
 
+  const handleCaptchaChange = (value) => {
+    setCaptchaValue(value);
+  };
+
   return (
-    <div>
+    <div id="car-repair-form">
       <section className="contact-one">
         <div className="container">
           <div className="row">
             <div 
-              className="col-xl-6 wow slideInLeft "
+              className="col-xl-6 wow slideInLeft"
               data-wow-delay="100ms"
               data-wow-duration="2500ms"
             >
@@ -33,10 +28,8 @@ const CarRepair = () => {
                   <div className="contact-one__shape-1" />
                   <div className="contact-one__shape-2" />
                   <div className="contact-one__title-box">
-                    {/* <p>Car Repair</p> */}
                     <h3>
-                    Own Your Pop Phones Store <br />
-                      {/* best Vehicle */}
+                      Own Your Pop Phones Store <br />
                     </h3>
                   </div>
                   <form
@@ -117,81 +110,26 @@ const CarRepair = () => {
                               <option value="CO">Colorado</option>
                               <option value="CT">Connecticut</option>
                               <option value="DE">Delaware</option>
-                              <option value="FL">Florida</option>
-                              <option value="GA">Georgia</option>
-                              <option value="HI">Hawaii</option>
-                              <option value="ID">Idaho</option>
-                              <option value="IL">Illinois</option>
-                              <option value="IN">Indiana</option>
-                              <option value="IA">Iowa</option>
-                              <option value="KS">Kansas</option>
-                              <option value="KY">Kentucky</option>
-                              <option value="LA">Louisiana</option>
-                              <option value="ME">Maine</option>
-                              <option value="MD">Maryland</option>
-                              <option value="MA">Massachusetts</option>
-                              <option value="MI">Michigan</option>
-                              <option value="MN">Minnesota</option>
-                              <option value="MS">Mississippi</option>
-                              <option value="MO">Missouri</option>
-                              <option value="MT">Montana</option>
-                              <option value="NE">Nebraska</option>
-                              <option value="NV">Nevada</option>
-                              <option value="NH">New Hampshire</option>
-                              <option value="NJ">New Jersey</option>
-                              <option value="NM">New Mexico</option>
-                              <option value="NY">New York</option>
-                              <option value="NC">North Carolina</option>
-                              <option value="ND">North Dakota</option>
-                              <option value="OH">Ohio</option>
-                              <option value="OK">Oklahoma</option>
-                              <option value="OR">Oregon</option>
-                              <option value="PA">Pennsylvania</option>
-                              <option value="RI">Rhode Island</option>
-                              <option value="SC">South Carolina</option>
-                              <option value="SD">South Dakota</option>
-                              <option value="TN">Tennessee</option>
-                              <option value="TX">Texas</option>
-                              <option value="UT">Utah</option>
-                              <option value="VT">Vermont</option>
-                              <option value="VA">Virginia</option>
-                              <option value="WA">Washington</option>
-                              <option value="WV">West Virginia</option>
-                              <option value="WI">Wisconsin</option>
-                              <option value="WY">Wyoming</option>
                             </select>
                           </div>
                         </div>
                       </div>
                       <div className="col-xl-12">
-                        <div className="contact-one__input-box captcha-box">
-                          <div className="captcha-image border p-2 mb-2 bg-light d-inline-block">
-                            <span className="font-monospace fw-bold fs-4 text-decoration-line-through letter-spacing-5">
-                              {captcha}
-                            </span>
-                          </div>
-                          <div className="mb-3">
-                            <span>Can't read the image? </span>
-                            <button 
-                              type="button" 
-                              onClick={generateCaptcha}
-                              className="btn btn-link p-0 border-0 text-primary text-decoration-underline"
-                            >
-                              click here to refresh
-                            </button>
-                          </div>
-                          <input
-                            type="text"
-                            name="CaptchaCode"
-                            placeholder="Enter your captcha code"
-                            required=""
-                            className="form-control"
+                        <div className="contact-one__input-box captcha-box my-3">
+                          {/* Google reCAPTCHA component */}
+                          <ReCAPTCHA
+                            sitekey="6LdJPycrAAAAAP0ZZpm9jrv7yibHNLoodXZqOz9Z" // Replace with your actual Google reCAPTCHA site key
+                            onChange={handleCaptchaChange}
                           />
                         </div>
                       </div>
                       <div className="col-xl-12 pb-5 pt-3">
                         <div className="contact-one__btn-box">
-                          <button type="submit" className="thm-btn contact-one__btn">
+                          <button 
+                            type="submit" 
+                            className="thm-btn contact-one__btn"
+                            disabled={!captchaValue} // Disable submit button until captcha is verified
+                          >
                             Submit
                             <span className="icon-arrow-up-right" />
                           </button>
@@ -203,45 +141,28 @@ const CarRepair = () => {
                 </div>
               </div>
             </div>
-            <div className="col-xl-6 wow slideInRight"
-  data-wow-delay="100ms"
-  data-wow-duration="2500ms"
->
-  <div className="contact-one__right h-100 position-relative">
-    <div className="contact-one__img h-100 w-100 overflow-hidden rounded-5">
-      <img 
-        src="/resources/repair.jpg" 
-        alt="Car Repair" 
-        className="w-100 h-100 object-fit-cover"
-      />
-      <div className="contact-one__img-shape-1 position-absolute">
-        <img
-          src="/shapes/contact-one-img-shape-1.png"
-          alt=""
-          className="img-fluid"
-        />
-      </div>
-      <div className="contact-one__experience-box position-absolute bottom-0 end-0 m-4">
-        <div className="contact-one__experience bg-white p-3 rounded-4 shadow-sm">
-          <div className="contact-one__experience-icon-box d-flex align-items-center">
-            <div className="contact-one__experience-icon bg-primary text-white rounded-circle p-3 me-3">
-              <span className="icon-trophy fs-4" />
+            <div 
+              className="col-xl-6 wow slideInRight"
+              data-wow-delay="100ms"
+              data-wow-duration="2500ms"
+            >
+              <div className="contact-one__right h-100 position-relative">
+                <div className="contact-one__img h-100 w-100 overflow-hidden rounded-5">
+                  <img 
+                    src="/resources/repair.jpg" 
+                    alt="Car Repair" 
+                    className="w-100 h-100 object-fit-cover"
+                  />
+                  <div className="contact-one__img-shape-1 position-absolute">
+                    <img
+                      src="/shapes/contact-one-img-shape-1.png"
+                      alt=""
+                      className="img-fluid"
+                    />
+                  </div>
+                </div>
+              </div>
             </div>
-            <div className="contact-one__experience-count-box">
-              <h3 className="odometer mb-0" data-count={10}>
-                00
-              </h3>
-              <span>+</span>
-            </div>
-          </div>
-          <p className="contact-one__experience-text text-muted mb-0 mt-2">
-            Years Of Experiences
-          </p>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
           </div>
         </div>
       </section>

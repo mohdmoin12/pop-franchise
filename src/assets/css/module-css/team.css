@@ -218,7 +218,7 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: var(--crank-black);
+    background-color: var(--crank-base);
     transition: -webkit-transform 0.5s ease;
     transition: transform 0.5s ease;
     transition: transform 0.5s ease, -webkit-transform 0.5s ease;
@@ -307,7 +307,7 @@
 }
 
 .team-two__list li:hover .team-two__name-box h3 a {
-    color: var(--crank-white);
+    color: var(--crank-black);
 }
 
 .team-two__name-box h3 a {
@@ -320,7 +320,7 @@
 }
 
 .team-two__list li:hover .team-two__name-box p {
-    color: var(--crank-white);
+    color: var(--crank-black);
 }
 
 .team-two__text {
@@ -330,7 +330,7 @@
 }
 
 .team-two__list li:hover .team-two__text {
-    color: var(--crank-white);
+    color: var(--crank-black);
 }
 
 /* hover image */

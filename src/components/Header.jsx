@@ -75,7 +75,7 @@ const Header = () => {
                       {/* Your social icons */}
                     </div>
                     <div className="cta-one__btn" style={{ fontSize: "11px" }}>
-                      <a href="contact.html" className="thm-btn">
+                      <a href="#car-repair-form" className="thm-btn">
                         Join POP Phones
                         <span className="icon-arrow-up-right"></span>
                       </a>

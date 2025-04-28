@@ -12,7 +12,7 @@ const MainSlider = () => {
         <OwlCarousel
           className="owl-theme main-slider__carousel"
           margin={10}
-          nav={false} 
+          nav={false}
           autoplayTimeout={3500}
           items={1}
           dots={false}
@@ -42,19 +42,22 @@ const MainSlider = () => {
                     Mobile Phone & Accessories Brands
                   </p>
                   <p className="main-slider__text d-block d-sm-none">
-                    Be Part of One of Australia's Fastest Growing
-                    Mobile Phone & Accessories Brands
+                    Be Part of One of Australia's Fastest Growing Mobile Phone &
+                    Accessories Brands
                   </p>
                   <div className="main-slider__btn-and-video-box d-flex flex-column flex-sm-row align-items-start align-items-sm-center">
                     <div className="main-slider__btn-box me-sm-3 mb-3 mb-sm-0">
-                      <a href="contact.html" className="thm-btn btn btn-primary">
+                      <a
+                        href="#car-repair-form"
+                        className="thm-btn btn btn-primary"
+                      >
                         Join POP Phones
                         <span className="icon-arrow-up-right ms-2" />
                       </a>
                     </div>
                     <div className="main-slider__video-link">
                       <a
-                        href="https://www.youtube.com/watch?v=Get7rqXYrbQ"
+                        href="https://onedrive.live.com/?qt=allmyphotos&photosData=%2Fshare%2F96E58F82474A0F0A%21s064475f36360429a8fae1db7518ffad6%3Fithint%3Dvideo%26web%3D1%26migratedtospo%3Dtrue&sw=bypassConfig&cid=96E58F82474A0F0A&id=96E58F82474A0F0A%21s064475f36360429a8fae1db7518ffad6&redeem=aHR0cHM6Ly8xZHJ2Lm1zL3YvYy85NmU1OGY4MjQ3NGEwZjBhL0VmTjFSQVpnWTVwQ2o2NGR0MUdQLXRZQkxuY1VFQmxuQzRHcm9fZFBtREhvRXc%5Fd2ViPTE&v=photos"
                         className="video-popup"
                       >
                         <div className="main-slider__video-icon">
