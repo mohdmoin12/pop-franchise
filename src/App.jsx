@@ -7,14 +7,12 @@ import * as Lucide from "lucide-react";
 import { useEffect } from "react";
 import { loadBootstrap } from "./loader";
 
- 
 import Counter from "./components/Counter";
 import Services from "./components/Services";
 import About from "./components/About";
 import Brand from "./components/Brand";
 import Gallery from "./components/Gallery";
 import FAQ from "./components/FAQ";
-
 
 import Footer from "./components/Footer";
 import Preloader from "./components/Preloader";
@@ -44,7 +42,6 @@ import "./assets/css/nice-select.css";
 import "./assets/css/jquery-ui.css";
 import "./assets/css/aos.css";
 
-
 import "jquery-ui-dist/jquery-ui.css";
 import "aos/dist/aos.css";
 import "owl.carousel/dist/assets/owl.carousel.min.css";
@@ -57,8 +54,6 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "owl.carousel/dist/assets/owl.carousel.css";
 import "owl.carousel/dist/assets/owl.theme.default.css";
 import "./assets/css/owl.theme.default.min.css";
-
-
 
 // Import your custom styles
 import "./assets/css/custom-animate.css";
@@ -83,7 +78,6 @@ import "./assets/css/module-css/reviews.css";
 import "./assets/css/module-css/MouseRipple.css";
 import "./assets/css/module-css/faq.css";
 
-
 // Template styles
 import "./assets/css/style.css";
 import "./assets/css/responsive.css";
@@ -104,9 +98,6 @@ import CarRepair from "./components/carRepair";
 import PricingPlan from "./components/pricingPlan";
 import LatestBlog from "./components/latestBlog";
 
-
-
-
 const containerVariants = {
   hidden: { opacity: 0 },
   visible: { opacity: 1, transition: { staggerChildren: 0.3 } },
@@ -122,11 +113,10 @@ function App() {
     document.body.appendChild(script);
 
     return () => {
-        document.body.removeChild(script);
+      document.body.removeChild(script);
     };
-}, []);
+  }, []);
   return (
-
     <motion.div
       variants={containerVariants}
       initial="hidden"
@@ -145,28 +135,23 @@ function App() {
       <Quality />
       {/* <Stepper /> */}
       {/* <StepperForm /> */}
-  
-      
-      
-     
+
       {/* <MainService /> */}
       <Services />
       <AboutUs />
       <Cta />
       {/*<Review />*/}
-         <Gallery />
+      <Gallery />
       <FAQ />
-    
-           {/* <MultiStepForm /> */}
-           {/* <OurTeam/> */}
-           <CarRepair/>
-           {/* <PricingPlan/> */}
-           {/* <LatestBlog/> */}
-   
+
+      {/* <MultiStepForm /> */}
+      {/* <OurTeam/> */}
+      <CarRepair />
+      {/* <PricingPlan/> */}
+      {/* <LatestBlog/> */}
+
       <Footer />
       <MouseRipple />
-
-      
     </motion.div>
   );
 }

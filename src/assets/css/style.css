@@ -2549,5 +2549,52 @@ color: black;
   }
 }
 
+/* ------- Mobile Responsive ------- */
+@media (max-width: 768px) {
+  .faq-one {
+    padding: 40px 15px;
+  }
+
+  .section-title h2 {
+    font-size: 28px;
+  }
+
+  .accrodion-title {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .faq-one__accrodion-title-co {
+    margin-bottom: 8px;
+    font-size: 16px;
+  }
+
+  .accrodion-title h4 {
+    font-size: 16px;
+  }
+
+  .icon {
+    align-self: flex-end;
+    margin-top: 8px;
+  }
+}
+
+@media (max-width: 480px) {
+  .section-title h2 {
+    font-size: 24px;
+  }
+
+  .faq-one__accrodion-title-co {
+    font-size: 14px;
+  }
+
+  .accrodion-title h4 {
+    font-size: 14px;
+  }
+
+  .accrodion-content p {
+    font-size: 14px;
+  }
+}
 
 
