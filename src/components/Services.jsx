@@ -22,7 +22,7 @@ const Services = () => {
               >
                 <div className="services-one__single h-100">
                   <div className="services-one__icon">
-                    <span className="icon-broken-car" />
+                    <img src="/reputation.png" alt="Established Brand" width="64" height="64" />
                     <div className="services-one__icon-shape-1" />
                     <div className="services-one__icon-shape-2" />
                   </div>
@@ -47,7 +47,7 @@ const Services = () => {
               >
                 <div className="services-one__single h-100">
                   <div className="services-one__icon">
-                    <span className="icon-brake-disc" />
+                    <img src="/business-model.png" alt="Business Model" width="64" height="64" />
                     <div className="services-one__icon-shape-1" />
                     <div className="services-one__icon-shape-2" />
                   </div>
@@ -75,7 +75,7 @@ const Services = () => {
               >
                 <div className="services-one__single h-100">
                   <div className="services-one__icon">
-                    <span className="icon-chassis" />
+                    <img src="/high-value.png" alt="High Demand Industry" width="64" height="64" />
                     <div className="services-one__icon-shape-1" />
                     <div className="services-one__icon-shape-2" />
                   </div>
@@ -97,7 +97,7 @@ const Services = () => {
                 >
                   <div className="services-one__single h-100">
                     <div className="services-one__icon">
-                      <span className="icon-chassis" />
+                      <img src="/customer-service.png" alt="Training and Support" width="64" height="64" />
                       <div className="services-one__icon-shape-1" />
                       <div className="services-one__icon-shape-2" />
                     </div>
@@ -118,7 +118,7 @@ const Services = () => {
                 >
                   <div className="services-one__single h-100">
                     <div className="services-one__icon">
-                      <span className="icon-chassis" />
+                      <img src="/leadership-development.png" alt="Marketing and Digital Support" width="64" height="64" />
                       <div className="services-one__icon-shape-1" />
                       <div className="services-one__icon-shape-2" />
                     </div>
