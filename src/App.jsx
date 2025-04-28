@@ -152,10 +152,11 @@ function App() {
       {/* <MainService /> */}
       <Services />
       <AboutUs />
+      <Cta />
       {/*<Review />*/}
          <Gallery />
       <FAQ />
-       {/* <Cta /> */}
+    
            {/* <MultiStepForm /> */}
            {/* <OurTeam/> */}
            <CarRepair/>

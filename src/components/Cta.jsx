@@ -1,91 +1,172 @@
+
 import React from "react";
 
 const Cta = () => {
   return (
-    <div className="mt-10 ">
-       <section className="testimonial-one">
-  <div className="testimonial-one__wrap">
-    <div className="container">
-      <div className="section-title text-left sec-title-animation animation-style2">
-        <div className="section-title__tagline-box">
-          <span className="section-title__tagline">TESTIMONIAL</span>
-        </div>
-        <h2 className="section-title__title title-animation">
-          Clients Testimonial
-        </h2>
-      </div>
-      <div className="testimonial-one__carousel owl-theme owl-carousel">
-        {/*Testimonial One Single Start */}
-        <div className="item">
-          <div className="testimonial-one__single">
-            <div className="testimonial-one__img">
-              <img src="assets/images/testimonial/testimonial-1-1.jpg" alt="" />
+    <div>
+      <section className="team-two">
+        <div className="container">
+          <div className="section-title text-center sec-title-animation animation-style1">
+            <div className="section-title__tagline-box">
+              <span className="section-title__tagline">Our Team</span>
             </div>
-            <div className="testimonial-one__client-info">
-              <h3 className="testimonial-one__client-name">
-                <a href="testimonials.html">Arlene McCoy</a>
-              </h3>
-              <p className="testimonial-one__client-text">Nursing Assistant</p>
-            </div>
-            <p className="testimonial-one__text">
-              Car service the maintaining and the performance longevity of
-              vehicle a From oil is a and tire rotations
-            </p>
-            <div className="testimonial-one__quote">
-              <span className="fas fa-quote-right" />
-            </div>
+            <h2 className="section-title__title title-animation">
+              They Our Best Team
+              <br />
+              Member Ever
+            </h2>
           </div>
-        </div>
-        {/*Testimonial One Single End */}
-        {/*Testimonial One Single Start */}
-        <div className="item">
-          <div className="testimonial-one__single">
-            <div className="testimonial-one__img">
-              <img src="assets/images/testimonial/testimonial-1-2.jpg" alt="" />
-            </div>
-            <div className="testimonial-one__client-info">
-              <h3 className="testimonial-one__client-name">
-                <a href="testimonials.html">Arlene Smith</a>
-              </h3>
-              <p className="testimonial-one__client-text">Nursing Assistant</p>
-            </div>
-            <p className="testimonial-one__text">
-              Car service the maintaining and the performance longevity of
-              vehicle a From oil is a and tire rotations
-            </p>
-            <div className="testimonial-one__quote">
-              <span className="fas fa-quote-right" />
-            </div>
-          </div>
-        </div>
-        {/*Testimonial One Single End */}
-        {/*Testimonial One Single Start */}
-        <div className="item">
-          <div className="testimonial-one__single">
-            <div className="testimonial-one__img">
-              <img src="assets/images/testimonial/testimonial-1-3.jpg" alt="" />
-            </div>
-            <div className="testimonial-one__client-info">
-              <h3 className="testimonial-one__client-name">
-                <a href="testimonials.html">Obed McCoy</a>
-              </h3>
-              <p className="testimonial-one__client-text">Nursing Assistant</p>
-            </div>
-            <p className="testimonial-one__text">
-              Car service the maintaining and the performance longevity of
-              vehicle a From oil is a and tire rotations
-            </p>
-            <div className="testimonial-one__quote">
-              <span className="fas fa-quote-right" />
-            </div>
-          </div>
-        </div>
-        {/*Testimonial One Single End */}
-      </div>
-    </div>
-  </div>
-</section>
+          <div className="team-two__inner">
+            <ul className="team-two__list list-unstyled">
+              <li className="hover-item wow fadeInLeft" data-wow-delay="100ms">
+                <div className="team-two__single">
+                  <div
+                    className="team-two__shape-1"
+                    style={{
+                      backgroundImage:
+                        "url(/shapes/shape0.jpg)",
+                    }}
+                  />
+                  <div className="team-two__name-box">
+                    <h3>
+                      <a href="team-details.html">Darlene Robertson</a>
+                    </h3>
+                    <p className="text-black">Nursing Assistant</p>
+                  </div>
+                  <p className="team-two__text">
+                    Car service is essential for maintaining the performance and
+                    longevity of your
+                    <br />
+                    vehicle. From oil changes Car service is essential for
+                    maintaining
+                  </p>
+                </div>
+                <div className="hover-item__box">
+                  <img
+                    src="/images/team/team-2-1.jpg"
+                    alt="Image"
+                    className="hover-item__box-img"
+                  />
+                  <div className="team-two__arrow">
+                    <a href="team-details.html">
+                      <span className="icon-arrow-up-right" />
+                    </a>
+                  </div>
+                </div>
+              </li>
+              <li className="hover-item wow fadeInRight" data-wow-delay="200ms">
+                <div className="team-two__single">
+                  <div
+                    className="team-two__shape-1"
+                    style={{
+                      backgroundImage:
+                        "url(/shapes/shape0.jpg)",
+                    }}
+                  />
+                  <div className="team-two__name-box">
+                    <h3>
+                      <a href="team-details.html">Leslie Alexander</a>
+                    </h3>
+                    <p className="text-black ">Medical Assistant</p>
 
+                  </div>
+                  <p className="team-two__text">
+                    Car service is essential for maintaining the performance and
+                    longevity of your
+                    <br />
+                    vehicle. From oil changes Car service is essential for
+                    maintaining
+                  </p>
+                </div>
+                {/* <div className="hover-item__box">
+                  <img
+                    src="assets/images/team/team-2-2.jpg"
+                    alt="Image"
+                    className="hover-item__box-img"
+                  />
+                  <div className="team-two__arrow">
+                    <a href="team-details.html">
+                      <span className="icon-arrow-up-right" />
+                    </a>
+                  </div>
+                </div> */}
+              </li>
+              {/* <li className="hover-item wow fadeInLeft" data-wow-delay="300ms">
+                <div className="team-two__single">
+                  <div
+                    className="team-two__shape-1"
+                    style={{
+                      backgroundImage:
+                        "url(assets/images/shapes/team-two-shape-1.png)",
+                    }}
+                  />
+                  <div className="team-two__name-box">
+                    <h3>
+                      <a href="team-details.html">Cameron Williamson</a>
+                    </h3>
+                    <p>Marketing Coordinator</p>
+                  </div>
+                  <p className="team-two__text">
+                    Car service is essential for maintaining the performance and
+                    longevity of your
+                    <br />
+                    vehicle. From oil changes Car service is essential for
+                    maintaining
+                  </p>
+                </div>
+                <div className="hover-item__box">
+                  <img
+                    src="assets/images/team/team-2-3.jpg"
+                    alt="Image"
+                    className="hover-item__box-img"
+                  />
+                  <div className="team-two__arrow">
+                    <a href="team-details.html">
+                      <span className="icon-arrow-up-right" />
+                    </a>
+                  </div>
+                </div>
+              </li> */}
+              {/* <li className="hover-item wow fadeInRight" data-wow-delay="400ms">
+                <div className="team-two__single">
+                  <div
+                    className="team-two__shape-1"
+                    style={{
+                      backgroundImage:
+                        "url(assets/images/shapes/team-two-shape-1.png)",
+                    }}
+                  />
+                  <div className="team-two__name-box">
+                    <h3>
+                      <a href="team-details.html">Dianne Russell</a>
+                    </h3>
+                    <p>President of Sales</p>
+                  </div>
+                  <p className="team-two__text">
+                    Car service is essential for maintaining the performance and
+                    longevity of your
+                    <br />
+                    vehicle. From oil changes Car service is essential for
+                    maintaining
+                  </p>
+                </div>
+                <div className="hover-item__box">
+                  <img
+                    src="assets/images/team/team-2-4.jpg"
+                    alt="Image"
+                    className="hover-item__box-img"
+                  />
+                  <div className="team-two__arrow">
+                    <a href="team-details.html">
+                      <span className="icon-arrow-up-right" />
+                    </a>
+                  </div>
+                </div>
+              </li> */}
+            </ul>
+          </div>
+        </div>
+      </section>
     </div>
   );
 };

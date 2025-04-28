@@ -5,30 +5,41 @@ import { ChevronDown } from "lucide-react";
 const faqs = [
   {
     id: 1,
-    question: "How long does a typical repair take?",
+    question:
+      "What kind of experience do I need to become a Pop Phones franchisee?",
     answer:
-      " Most repairs, such as screen and battery replacements, can be completed within 30-60 minutes. More complex issues may take longer, but we always aim for a quick turnaround.    ",
+      " No prior experience in the mobile industry is required! We’re looking for driven individuals with a strong work ethic, good people skills, and a passion for retail. We provide full training and ongoing support. ",
   },
   {
     id: 2,
-    question: "Do you offer a warranty on repairs? ",
+    question: "How much does it cost to start a Pop Phones franchise? ",
     answer:
-      "Absolutely! We provide a warranty on all repairs, covering defects in parts and workmanship. Warranty periods vary based on the repair type",
+      "Startup costs vary depending on location, store size, and fit-out needs. We’ll provide a detailed cost breakdown after your initial application. Expect an investment range starting from AUD $XXX.",
   },
   {
     id: 3,
-    question: "What if my phone has multiple issues?",
+    question: "What support do I receive as a franchisee?",
     answer:
-      "No problem! Our technicians can diagnose all issues and offer repairs at the best price. ",
+      "1.Full store setup & training,2. Inventory and supplier management,3.Local and national marketing support,4.POS & tech integration,5.Ongoing business mentoring & operational guidance ",
   },
   {
     id: 4,
-    question: "What should I do if my phone has water damage?",
+    question: "Do I have to find my own location?",
     answer:
-      "Turn it off immediately and do not charge it. Bring it to us as soon as possible for professional drying and repair to prevent further damage.  ",
+      "We assist with site selection based on performance data, local demographics, and commercial viability. Final approval is a collaborative process to ensure long-term success.  ",
   },
-
-
+  {
+    id: 5,
+    question: "How long does it take to open a store?",
+    answer:
+      "From approval to opening, the process typically takes 8–12 weeks, depending on the site and fit-out schedule.  ",
+  },
+  {
+    id: 6,
+    question: "Can I own multiple stores?",
+    answer:
+      "Yes! Many of our franchisees scale to multi-store ownership. We support ambitious partners ready to grow within our network  ",
+  },
 ];
 
 const FAQ = () => {
@@ -45,10 +56,7 @@ const FAQ = () => {
           <div className="section-title__tagline-box">
             <span className="text-black">FAQs</span>
           </div>
-          <h2
-            className="text-black"
-            
-          >
+          <h2 className="text-black">
             Got Questions? We've <br />
             Got Answers
           </h2>

@@ -227,7 +227,7 @@ const Header = () => {
                     </div>
                     <div className="cta-one__btn" style={{ fontSize: "11px" }}>
                       <a href="contact.html" className="thm-btn ">
-                        Book Repair
+                      Join POP Phones
                         <span className="icon-arrow-up-right"></span>
                       </a>
                     </div>

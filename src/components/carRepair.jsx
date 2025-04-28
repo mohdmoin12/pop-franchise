@@ -24,7 +24,7 @@ const CarRepair = () => {
         <div className="container">
           <div className="row">
             <div 
-              className="col-xl-12 wow slideInLeft"
+              className="col-xl-6 wow slideInLeft"
               data-wow-delay="100ms"
               data-wow-duration="2500ms"
             >
@@ -203,6 +203,45 @@ const CarRepair = () => {
                 </div>
               </div>
             </div>
+            <div className="col-xl-6 wow slideInRight"
+  data-wow-delay="100ms"
+  data-wow-duration="2500ms"
+>
+  <div className="contact-one__right h-100 position-relative">
+    <div className="contact-one__img h-100 w-100 overflow-hidden rounded-5">
+      <img 
+        src="/resources/contact-one-img-1.png" 
+        alt="Car Repair" 
+        className="w-100 h-100 object-fit-cover"
+      />
+      <div className="contact-one__img-shape-1 position-absolute">
+        <img
+          src="/shapes/contact-one-img-shape-1.png"
+          alt=""
+          className="img-fluid"
+        />
+      </div>
+      <div className="contact-one__experience-box position-absolute bottom-0 end-0 m-4">
+        <div className="contact-one__experience bg-white p-3 rounded-4 shadow-sm">
+          <div className="contact-one__experience-icon-box d-flex align-items-center">
+            <div className="contact-one__experience-icon bg-primary text-white rounded-circle p-3 me-3">
+              <span className="icon-trophy fs-4" />
+            </div>
+            <div className="contact-one__experience-count-box">
+              <h3 className="odometer mb-0" data-count={10}>
+                00
+              </h3>
+              <span>+</span>
+            </div>
+          </div>
+          <p className="contact-one__experience-text text-muted mb-0 mt-2">
+            Years Of Experiences
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
           </div>
         </div>
       </section>

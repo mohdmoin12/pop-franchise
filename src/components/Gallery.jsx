@@ -10,15 +10,16 @@ const Gallery = () => {
               <div className="col-xl-7">
                 <div className="gallery-one__top-left">
                   <div className="section-title text-left sec-title-animation animation-style2">
-                    <div className="section-title__tagline-box">
+                    <div className="section-title__tagline-boxx">
                       <span className="text-black">
                       Highlights 
                       </span>
                     </div>
-                    <h2 className="text-black">
-                    Expert Repairs, Guaranteed Quality!  <br />
-                   
-                    </h2>
+                    <h2 className="text-black text-start">
+  Expert Repairs, Guaranteed Quality!  
+  <br />
+</h2>
+
                   </div>
                 </div>
               </div>

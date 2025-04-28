@@ -178,8 +178,9 @@
 .team-two {
     position: relative;
     display: block;
-    padding: 120px 0 90px;
+    /* padding: 120px 0 90px; */
     z-index: 1;
+    background-color: #F4F4F4;
 }
 
 .team-two__inner {
@@ -325,6 +326,7 @@
 .team-two__text {
     -webkit-transition: all 500ms ease;
     transition: all 500ms ease;
+    color: black;
 }
 
 .team-two__list li:hover .team-two__text {

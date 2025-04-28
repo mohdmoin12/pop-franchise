@@ -68,37 +68,38 @@ const Counter = () => {
               <li className="wow fadeInLeft" data-wow-delay="100ms">
                 <div className="counter-one__single">
                   <div className="counter-one__count-box">
-                    <h3 className="odometer" data-count="600">00</h3>
+                    <h3 className="odometer" data-count="18"></h3>
                     <span>+</span>
                   </div>
-                  <p className="counter-one__text">Team member</p>
+                  <p className="counter-one__text">Stores Nationwide</p>
                 </div>
               </li>
               <li className="wow fadeInLeft" data-wow-delay="200ms">
                 <div className="counter-one__single">
                   <div className="counter-one__count-box">
-                    <h3 className="odometer" data-count="2">00</h3>
-                    <span>k+</span>
+                    <h3 className="odometer" data-count="10">0</h3>
+                    <span>+</span>
                   </div>
-                  <p className="counter-one__text">Service Complete</p>
+                  <p className="counter-one__text">Years 
+                  Industry Expertise</p>
                 </div>
               </li>
               <li className="wow fadeInRight" data-wow-delay="300ms">
                 <div className="counter-one__single">
                   <div className="counter-one__count-box">
-                    <h3 className="odometer" data-count="53">00</h3>
-                    <span>+</span>
+                    <h3 className="odometer" data-count="5">00</h3>
+                    <span>L+</span>
                   </div>
-                  <p className="counter-one__text">Winning award</p>
+                  <p className="counter-one__text">Devices Sold</p>
                 </div>
               </li>
               <li className="wow fadeInRight" data-wow-delay="400ms">
                 <div className="counter-one__single">
                   <div className="counter-one__count-box">
-                    <h3 className="odometer" data-count="3">00</h3>
-                    <span>k+</span>
+                    <h3 className="odometer" data-count="100%">00</h3>
+                    <span>%</span>
                   </div>
-                  <p className="counter-one__text">Client Review</p>
+                  <p className="counter-one__text">Customer Satisfaction</p>
                 </div>
               </li>
             </ul>

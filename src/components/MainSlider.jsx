@@ -40,7 +40,7 @@ const MainSlider = () => {
                   <div className="main-slider__btn-and-video-box">
                     <div className="main-slider__btn-box">
                       <a href="contact.html" className="thm-btn">
-                        Get Started
+                      Join POP Phones
                         <span className="icon-arrow-up-right" />
                       </a>
                     </div>
