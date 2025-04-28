@@ -24,7 +24,7 @@ const CarRepair = () => {
         <div className="container">
           <div className="row">
             <div 
-              className="col-xl-6 wow slideInLeft"
+              className="col-xl-6 wow slideInLeft "
               data-wow-delay="100ms"
               data-wow-duration="2500ms"
             >
@@ -189,7 +189,7 @@ const CarRepair = () => {
                           />
                         </div>
                       </div>
-                      <div className="col-xl-12">
+                      <div className="col-xl-12 pb-5 pt-3">
                         <div className="contact-one__btn-box">
                           <button type="submit" className="thm-btn contact-one__btn">
                             Submit
@@ -210,7 +210,7 @@ const CarRepair = () => {
   <div className="contact-one__right h-100 position-relative">
     <div className="contact-one__img h-100 w-100 overflow-hidden rounded-5">
       <img 
-        src="/resources/contact-one-img-1.png" 
+        src="/resources/repair.jpg" 
         alt="Car Repair" 
         className="w-100 h-100 object-fit-cover"
       />
