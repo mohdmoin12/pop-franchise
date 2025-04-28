@@ -3,10 +3,11 @@ import React from "react";
 const Sidebar = ({ isOpen, onClose }) => {
   // Icon HTML using Bootstrap Icons class names
   const menuItems = [
-    { label: "Why Us", icon: "bi-patch-question-fill", href: "index.html" },
-    { label: "Features", icon: "bi-star-fill", href: "#" },
-    { label: "FAQs", icon: "bi-question-circle-fill", href: "#" },
-    { label: "Gallery", icon: "bi-images", href: "#" },
+    { label: "Why Us", icon: "bi-patch-question-fill", href: "#services-section" },
+    { label: "Offerings", icon: "bi-star-fill", href: "#about-section" },
+    { label: "Opportunities", icon: "bi-question-circle-fill", href: "#opportunities-section" },
+    { label: "Gallery", icon: "bi-images", href: "#gallary-section" },
+    { label: "FAQs", icon: "bi-images", href: "#Faq-section" },
   ];
 
   return (
