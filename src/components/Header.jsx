@@ -61,10 +61,11 @@ const Header = () => {
                     ) : (
                       <ul className="main-menu__list">
                         {/* Your existing desktop menu items */}
-                        <li><a href="index.html">Why Us</a></li>
-                        <li><a href="#">Features</a></li>
-                        <li><a href="#">FAQs</a></li>
-                        <li><a href="#">Gallery</a></li>
+                        <li><a href="#services-section">Why Us?</a></li>
+                        <li><a href="#about-section">Offerings</a></li>
+                        <li><a href="#opportunities-section">Opportunities</a></li>
+                        <li><a href="#gallary-section">Gallery</a></li>
+                        <li><a href="#Faq-section">FAQs</a></li>
                       </ul>
                     )}
                   </div>

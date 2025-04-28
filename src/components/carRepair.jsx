@@ -102,14 +102,14 @@ const CarRepair = () => {
                               }}
                             >
                               <option value="" disabled>Select State</option>
-                              <option value="AL">Alabama</option>
-                              <option value="AK">Alaska</option>
-                              <option value="AZ">Arizona</option>
-                              <option value="AR">Arkansas</option>
-                              <option value="CA">California</option>
-                              <option value="CO">Colorado</option>
-                              <option value="CT">Connecticut</option>
-                              <option value="DE">Delaware</option>
+                              <option value="AL">ACT</option>
+                              <option value="AK">NSW</option>
+                              <option value="AZ">NT</option>
+                              <option value="AR">QLD</option>
+                              <option value="CA">SA</option>
+                              <option value="CO">TAS</option>
+                              <option value="CT">VIC</option>
+                              <option value="DE">WA</option>
                             </select>
                           </div>
                         </div>

@@ -8,7 +8,7 @@ const AboutUs = () => {
   };
 
   return (
-    <div>
+    <div id="about-section">
       <section className="about-one">
         <div className="container">
           <div className="row">

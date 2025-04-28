@@ -50,6 +50,7 @@ const FAQ = () => {
   };
 
   return (
+    <div id="Faq-section">
     <section className="faq-one">
       <div className="container">
         <div className="section-title text-center sec-title-animation animation-style1">
@@ -94,6 +95,7 @@ const FAQ = () => {
         </div>
       </div>
     </section>
+    </div>
   );
 };
 

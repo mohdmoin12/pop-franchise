@@ -2,7 +2,7 @@ import React from "react";
 
 const Gallery = () => {
   return (
-    <div>
+    <div id="gallary-section">
       <section className="gallery-one">
         <div className="container">
           <div className="gallery-one__top">

@@ -8,7 +8,7 @@ const redirectSvg = (
 
 const Cta = () => {
   return (
-    <div>
+    <div id="opportunities-section">
       <section className="team-two">
         <div className="container">
           <div className="section-title text-center sec-title-animation animation-style1">
