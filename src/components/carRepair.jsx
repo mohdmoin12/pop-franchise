@@ -118,7 +118,7 @@ const CarRepair = () => {
                         <div className="contact-one__input-box captcha-box my-3">
                           {/* Google reCAPTCHA component */}
                           <ReCAPTCHA
-                            sitekey="6LfxPycrAAAAAFWxUVx2xgeNVWUUfbCjZh4lzcML" // Replace with your actual Google reCAPTCHA site key
+                            sitekey="6Le_TycrAAAAAFAkODXYEBvjBl-DrhQyJVRxqatO" // Replace with your actual Google reCAPTCHA site key
                             onChange={handleCaptchaChange}
                           />
                         </div>
