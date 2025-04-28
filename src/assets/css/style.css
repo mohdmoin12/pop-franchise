@@ -2296,7 +2296,7 @@ input {
 /* Responsive tweak for very small screens */
 @media (max-width: 480px) {
   .footer-img {
-    height: 16px;
+    height: 14px;
   }
 
 
@@ -2550,7 +2550,4 @@ color: black;
 }
 
 
-.footer-img {
-  width: 380px; /* Even smaller image */
-}
 

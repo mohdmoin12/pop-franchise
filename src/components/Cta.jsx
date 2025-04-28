@@ -1,4 +1,3 @@
-
 import React from "react";
 
 const Cta = () => {
@@ -8,12 +7,12 @@ const Cta = () => {
         <div className="container">
           <div className="section-title text-center sec-title-animation animation-style1">
             <div className="section-title__tagline-box">
-              <span className="section-title__tagline">Our Team</span>
+              {/* <span className="section-title__tagline">Our Team</span> */}
             </div>
             <h2 className="section-title__title title-animation">
-              They Our Best Team
+              Available Opportunities
               <br />
-              Member Ever
+              {/* Member Ever */}
             </h2>
           </div>
           <div className="team-two__inner">
@@ -23,22 +22,22 @@ const Cta = () => {
                   <div
                     className="team-two__shape-1"
                     style={{
-                      backgroundImage:
-                        "url(/shapes/shape0.jpg)",
+                      backgroundImage: "url(/shapes/shape0.jpg)",
                     }}
                   />
                   <div className="team-two__name-box">
                     <h3>
-                      <a href="team-details.html">Darlene Robertson</a>
+                      <a href="team-details.html">Adelaide City</a>
                     </h3>
-                    <p className="text-black">Nursing Assistant</p>
+                    {/* <p className="text-black">Nursing Assistant</p> */}
                   </div>
                   <p className="team-two__text">
-                    Car service is essential for maintaining the performance and
-                    longevity of your
+                    Position your business in the heart of Adelaide's bustling
+                    CBD, a prime location with high foot traffic and a diverse
+                    customer base seeking quality mobile solutions.
                     <br />
-                    vehicle. From oil changes Car service is essential for
-                    maintaining
+                    {/* vehicle. From oil changes Car service is essential for
+                    maintaining */}
                   </p>
                 </div>
                 <div className="hover-item__box">
@@ -59,23 +58,22 @@ const Cta = () => {
                   <div
                     className="team-two__shape-1"
                     style={{
-                      backgroundImage:
-                        "url(/shapes/shape0.jpg)",
+                      backgroundImage: "url(/shapes/shape0.jpg)",
                     }}
                   />
                   <div className="team-two__name-box">
                     <h3>
-                      <a href="team-details.html">Leslie Alexander</a>
+                      <a href="team-details.html">Parabanks</a>
                     </h3>
-                    <p className="text-black ">Medical Assistant</p>
-
+                    {/* <p className="text-black ">Medical Assistant</p> */}
                   </div>
                   <p className="team-two__text">
-                    Car service is essential for maintaining the performance and
-                    longevity of your
+                    Establish your franchise in the thriving Parabanks Shopping
+                    Centre, a central retail hub in Salisbury known for its
+                    strong community engagement and consistent shopper turnout.
                     <br />
-                    vehicle. From oil changes Car service is essential for
-                    maintaining
+                    {/* vehicle. From oil changes Car service is essential for
+                    maintaining */}
                   </p>
                 </div>
                 {/* <div className="hover-item__box">

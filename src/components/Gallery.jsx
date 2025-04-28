@@ -11,22 +11,21 @@ const Gallery = () => {
                 <div className="gallery-one__top-left">
                   <div className="section-title text-left sec-title-animation animation-style2">
                     <div className="section-title__tagline-boxx">
-                      <span className="text-black">
-                      Highlights 
-                      </span>
+                      <span className="text-black">Our Stores in Action</span>
                     </div>
                     <h2 className="text-black text-start">
-  Expert Repairs, Guaranteed Quality!  
-  <br />
-</h2>
-
+                      Step inside the world of Pop Phones!
+                      <br />
+                    </h2>
                   </div>
                 </div>
               </div>
               <div className="col-xl-5">
                 <div className="text-black">
                   <p>
-                  No matter the issue, we’ve got the perfect solution for your phone
+                    From vibrant store designs to happy customers and expert
+                    repairs, our gallery showcases the energy, professionalism,
+                    and community spirit that define every Pop Phones location.
                   </p>
                 </div>
               </div>
@@ -44,10 +43,7 @@ const Gallery = () => {
                       <img src="/resources/g1.jpeg" alt="" />
                     </div>
                     <div className="gallery-one__icon">
-                      <a
-                        className="img-popup"
-                        href="/resources/g1.jpeg"
-                      >
+                      <a className="img-popup" href="/resources/g1.jpeg">
                         <span className="icon-arrow-up-right-two" />
                       </a>
                     </div>
@@ -64,10 +60,7 @@ const Gallery = () => {
                       <img src="/resources/g2.jpg" alt="" />
                     </div>
                     <div className="gallery-one__icon">
-                      <a
-                        className="img-popup"
-                        href="/resources/g2.jpg"
-                      >
+                      <a className="img-popup" href="/resources/g2.jpg">
                         <span className="icon-arrow-up-right-two" />
                       </a>
                     </div>
@@ -84,10 +77,7 @@ const Gallery = () => {
                       <img src="/resources/g2.jpg" alt="" />
                     </div>
                     <div className="gallery-one__icon">
-                      <a
-                        className="img-popup"
-                        href="/resources/g2.jpg"
-                      >
+                      <a className="img-popup" href="/resources/g2.jpg">
                         <span className="icon-arrow-up-right-two" />
                       </a>
                     </div>
@@ -104,10 +94,7 @@ const Gallery = () => {
                       <img src="/resources/g4.jpg" alt="" />
                     </div>
                     <div className="gallery-one__icon">
-                      <a
-                        className="img-popup"
-                        href="/resources/g4.jpg"
-                      >
+                      <a className="img-popup" href="/resources/g4.jpg">
                         <span className="icon-arrow-up-right-two" />
                       </a>
                     </div>
@@ -124,10 +111,7 @@ const Gallery = () => {
                       <img src="/resources/g3.jpg" alt="" />
                     </div>
                     <div className="gallery-one__icon">
-                      <a
-                        className="img-popup"
-                        href="/resources/g3.jpg"
-                      >
+                      <a className="img-popup" href="/resources/g3.jpg">
                         <span className="icon-arrow-up-right-two" />
                       </a>
                     </div>
@@ -144,10 +128,7 @@ const Gallery = () => {
                       <img src="/resources/g3.jpg" alt="" />
                     </div>
                     <div className="gallery-one__icon">
-                      <a
-                        className="img-popup"
-                        href="/resources/g3.jpg"
-                      >
+                      <a className="img-popup" href="/resources/g3.jpg">
                         <span className="icon-arrow-up-right-two" />
                       </a>
                     </div>

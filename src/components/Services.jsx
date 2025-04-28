@@ -8,7 +8,7 @@ const Services = () => {
           <div className="container">
             <div className="section-title text-center sec-title-animation animation-style1">
               <div className="section-title__tagline-box">
-                <span className="text-black">Latest Service</span>
+                <span className="text-black">Why Us? </span>
               </div>
               <h2 className="text-black">
                 Why Franchise with Pop Phones? <br />

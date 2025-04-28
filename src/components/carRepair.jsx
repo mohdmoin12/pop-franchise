@@ -33,10 +33,10 @@ const CarRepair = () => {
                   <div className="contact-one__shape-1" />
                   <div className="contact-one__shape-2" />
                   <div className="contact-one__title-box">
-                    <p>Car Repair</p>
+                    {/* <p>Car Repair</p> */}
                     <h3>
-                      Expert Service for Your <br />
-                      best Vehicle
+                    Own Your Pop Phones Store <br />
+                      {/* best Vehicle */}
                     </h3>
                   </div>
                   <form
