@@ -111,7 +111,7 @@
     height: 100px;
     width: 100px;
     margin: 0 auto 0;
-    background-color: var(--crank-base);
+    /* background-color: var(--crank-base); */
     border-radius: 50%;
     border: 1px solid transparent;
     overflow: hidden;
@@ -121,7 +121,7 @@
 }
 
 .services-one__single:hover .services-one__icon {
-    border: 1px solid var(--crank-white);
+    border: 1px solid var(--crank-black);
     background-color: transparent;
 }
 
@@ -144,7 +144,7 @@
     position: absolute;
     width: 192px;
     height: 101px;
-    background: yellow;
+    /* background: yellow; */
     filter: blur(24.9942px);
     transform: rotate(-90deg);
     left: -130px;
@@ -165,13 +165,14 @@
     height: 95px;
     right: -25px;
     top: 90px;
-    background: yellow;
+    /* background: yellow; */
     filter: blur(24.9942px);
     transform: rotate(-90deg);
     opacity: .50;
     -webkit-transition: all 500ms ease;
     transition: all 500ms ease;
     z-index: -1;
+    border: 1px solid var(--crank-black);
 }
 
 .services-one__single:hover .services-one__icon-shape-2 {
