@@ -8,10 +8,10 @@ const LatestBlog = () => {
     <div className="blog-one__top">
       <div className="section-title text-left sec-title-animation animation-style2">
         <div className="section-title__tagline-boxxx">
-          <span className="section-title__tagline">Latest Blog And News - Trending Now </span>
+          <span className="section-title__tagline">Trending Now </span>
         </div>
-        <h2 className="section-title__title title-animation">
-        Our Best Recent Blog And News - Blogs
+        <h2 className="section-title__title title-animations">
+       Blogs
         </h2>
       </div>
       <div className="blog-one__btn-box">

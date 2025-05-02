@@ -13,8 +13,27 @@ const CarRepair = () => {
     setCaptchaValue(value);
   };
 
+  // CSS for white placeholders
+  const whiteplaceholderStyle = `
+    ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+      color: white !important;
+      opacity: 1; /* Firefox */
+    }
+    
+    :-ms-input-placeholder { /* Internet Explorer 10-11 */
+      color: white !important;
+    }
+    
+    ::-ms-input-placeholder { /* Microsoft Edge */
+      color: white !important;
+    }
+  `;
+
   return (
     <div id="car-repair-form">
+      {/* Add style tag for placeholder colors */}
+      <style>{whiteplaceholderStyle}</style>
+      
       <section className="contact-one">
         <div className="container">
           <div className="row">
@@ -97,11 +116,11 @@ const CarRepair = () => {
                                 paddingRight: '30px',
                                 border: '1px solid var(--crank-white)',
                                 borderRadius: '20px',
-                                color: 'rgba(var(--crank-white-rgb), .80)',
+                                color: 'white', // Changed to solid white
                                 backgroundColor: 'transparent'
                               }}
                             >
-                              <option value="" disabled>Select State</option>
+                              <option value="" disabled style={{color: 'white'}}>Select State</option>
                               <option value="AL">ACT</option>
                               <option value="AK">NSW</option>
                               <option value="AZ">NT</option>

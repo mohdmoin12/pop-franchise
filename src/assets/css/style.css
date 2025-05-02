@@ -2609,6 +2609,12 @@ color: black;
 .title-animation {
   position: relative;
   animation: fadeIn 1s ease-in-out;
+  margin-top: 50px;
+}
+.title-animations {
+  position: relative;
+  animation: fadeIn 1s ease-in-out;
+  margin-top: 1px;
 }
 
 .section-title__tagline {

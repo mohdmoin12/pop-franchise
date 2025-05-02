@@ -144,8 +144,9 @@ function App() {
       <Opportunity/>
       <Cta />
       {/*<Review />*/}
-      <Gallery />
       <Testimonial/>
+      <Gallery />
+     
       <FAQ />
      
 

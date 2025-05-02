@@ -7,7 +7,7 @@
     padding: 0px 0 58px;
     z-index: 1;
     background-color:#F4F4F4;
-    margin-top: 97px;
+    margin-top: 40px;
 }
 
 .contact-one__left {
@@ -89,6 +89,7 @@
     position: relative;
     display: block;
     margin-bottom: 30px;
+    
 }
 
 .contact-one__input-box input[type="text"],

@@ -4,7 +4,7 @@
 .services-one {
     position: relative;
     display: block;
-    padding: 120px 0 0;
+    padding: -19px 0 0;
     z-index: 1;
     background-color:#F4F4F4;
 }
@@ -15,8 +15,8 @@
     background-color: var(--crank-white);
     max-width: 1710px;
     width: 100%;
-    margin: -5px auto 0;
-    padding: 120px 15px 90px;
+    margin: 70px auto 0;
+    padding: 55px 15px 90px;
     border-radius: 90px;
 }
 
