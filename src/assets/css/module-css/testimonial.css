@@ -5,6 +5,7 @@
     position: relative;
     display: block;
     z-index: 1;
+    background-color: #F4F4F4;
 }
 
 .testimonial-one__wrap {
@@ -44,7 +45,7 @@
     display: block;
     border: 1px solid var(--crank-bdr-color);
     border-radius: 20px;
-    padding: 27px 160px 26px;
+    padding: 27px  26px;
     padding-right: 40px;
     margin-left: 30px;
     background-position: top left;

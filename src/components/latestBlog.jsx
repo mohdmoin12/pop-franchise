@@ -30,7 +30,7 @@ const LatestBlog = () => {
         >
           <div className="blog-one__single">
             <div className="blog-one__img">
-              <img src="assets/images/blog/blog-1-1.jpg" alt="" />
+              <img src="/blog/blog-1-1.jpg" alt="" />
             </div>
             <div className="blog-one__content">
               <div className="blog-one__date">
@@ -70,7 +70,7 @@ const LatestBlog = () => {
         <div className="col-xl-4 col-lg-6 wow fadeInUp" data-wow-delay="200ms">
           <div className="blog-one__single">
             <div className="blog-one__img">
-              <img src="assets/images/blog/blog-1-2.jpg" alt="" />
+              <img src="/blog/blog-1-2.jpg" alt="" />
             </div>
             <div className="blog-one__content">
               <div className="blog-one__date">
@@ -113,7 +113,7 @@ const LatestBlog = () => {
         >
           <div className="blog-one__single">
             <div className="blog-one__img">
-              <img src="assets/images/blog/blog-1-3.jpg" alt="" />
+              <img src="/blog/blog-1-3.jpg" alt="" />
             </div>
             <div className="blog-one__content">
               <div className="blog-one__date">

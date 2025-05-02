@@ -97,6 +97,8 @@ import OurTeam from "./components/ourTeam";
 import CarRepair from "./components/carRepair";
 import PricingPlan from "./components/pricingPlan";
 import LatestBlog from "./components/latestBlog";
+import Testimonial from "./components/testimonial";
+import Opportunity from "./components/opportunity";
 
 const containerVariants = {
   hidden: { opacity: 0 },
@@ -139,16 +141,20 @@ function App() {
       {/* <MainService /> */}
       <Services />
       <AboutUs />
+      <Opportunity/>
       <Cta />
       {/*<Review />*/}
       <Gallery />
+      <Testimonial/>
       <FAQ />
+     
 
       {/* <MultiStepForm /> */}
       {/* <OurTeam/> */}
       <CarRepair />
+      <LatestBlog/>
       {/* <PricingPlan/> */}
-      {/* <LatestBlog/> */}
+    
 
       <Footer />
       <MouseRipple />
