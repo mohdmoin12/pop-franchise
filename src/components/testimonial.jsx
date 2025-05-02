@@ -34,10 +34,10 @@ const Testimonial = () => {
           <div className="container">
             <div className="section-title text-left sec-title-animation animation-style2">
               <div className="section-title__tagline-box">
-                <span className="section-title__tagline">TESTIMONIAL</span>
+                {/* <span className="section-title__tagline">TESTIMONIAL</span> */}
               </div>
               <h2 className="section-title__title title-animation">
-                Clients Testimonial
+                Franchise Testimonials
               </h2>
             </div>
 
@@ -57,7 +57,7 @@ const Testimonial = () => {
                       <a href="testimonials.html">Arlene McCoy</a>
                     </h3>
                     <p className="testimonial-one__client-text">
-                      Seaford & The Grove, SA
+                      Seaford & The Grove,SA
                     </p>
                   </div>
                   <p className="testimonial-one__text">
@@ -137,7 +137,7 @@ const Testimonial = () => {
                       <a href="testimonials.html">Sohail, Franchisee </a>
                     </h3>
                     <p className="testimonial-one__client-text">
-                      St Agnes & Hollywood, SA
+                      St Agnes & Hollywood,SA
                     </p>
                   </div>
                   <p className="testimonial-one__text">
@@ -162,7 +162,7 @@ const Testimonial = () => {
                       <a href="testimonials.html">Sharan, Franchisee  </a>
                     </h3>
                     <p className="testimonial-one__client-text">
-                    St Agnes & Hollywood, SA
+                    St Agnes & Hollywood,SA
                     </p>
                   </div>
                   <p className="testimonial-one__text">

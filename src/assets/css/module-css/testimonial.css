@@ -13,8 +13,8 @@
     display: block;
     max-width: 1710px;
     width: 100%;
-    margin: 0 auto 0;
-    padding: 120px 15px 120px;
+    margin: 66px auto 0;
+    /* padding: 120px 15px 120px; */
     background-color: var(--crank-black);
     border-radius: 60px;
     overflow: hidden;

@@ -7,11 +7,11 @@ const LatestBlog = () => {
   <div className="container">
     <div className="blog-one__top">
       <div className="section-title text-left sec-title-animation animation-style2">
-        <div className="section-title__tagline-box">
-          <span className="section-title__tagline">Latest Blog And News</span>
+        <div className="section-title__tagline-boxxx">
+          <span className="section-title__tagline">Latest Blog And News - Trending Now </span>
         </div>
         <h2 className="section-title__title title-animation">
-          Our Best Recent Blog And News
+        Our Best Recent Blog And News - Blogs
         </h2>
       </div>
       <div className="blog-one__btn-box">
@@ -41,16 +41,16 @@ const LatestBlog = () => {
               </div>
               <ul className="blog-one__meta list-unstyled">
                 <li>
-                  <a href="blog-details.html">
+                  {/* <a href="blog-details.html">
                     <span className="icon-user" />
                     By admin
-                  </a>
+                  </a> */}
                 </li>
-                <li>
+                {/* <li>
                   <a href="blog-details.html">
                     <span className="icon-comments" />0 Comment
                   </a>
-                </li>
+                </li> */}
               </ul>
               <h3 className="blog-one__title">
                 <a href="blog-details.html">
@@ -80,17 +80,17 @@ const LatestBlog = () => {
                 </p>
               </div>
               <ul className="blog-one__meta list-unstyled">
-                <li>
+                {/* <li>
                   <a href="blog-details.html">
                     <span className="icon-user" />
                     By admin
                   </a>
-                </li>
-                <li>
+                </li> */}
+                {/* <li>
                   <a href="blog-details.html">
                     <span className="icon-comments" />0 Comment
                   </a>
-                </li>
+                </li> */}
               </ul>
               <h3 className="blog-one__title">
                 <a href="blog-details.html">
@@ -123,17 +123,17 @@ const LatestBlog = () => {
                 </p>
               </div>
               <ul className="blog-one__meta list-unstyled">
-                <li>
+                {/* <li>
                   <a href="blog-details.html">
                     <span className="icon-user" />
                     By admin
                   </a>
-                </li>
-                <li>
+                </li> */}
+                {/* <li>
                   <a href="blog-details.html">
                     <span className="icon-comments" />0 Comment
                   </a>
-                </li>
+                </li> */}
               </ul>
               <h3 className="blog-one__title">
                 <a href="blog-details.html">

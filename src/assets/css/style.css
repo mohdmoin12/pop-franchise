@@ -273,6 +273,11 @@ ul {
   position: relative;
   display: block;
 }
+.section-title__tagline-boxxx {
+  position: relative;
+  display: block;
+  text-align: left;
+}
 
 .section-title__tagline-boxx {
   position: relative;
@@ -2611,11 +2616,12 @@ color: black;
   display: inline-block;
   font-size: 14px;
   line-height: 24px;
-  color: var(--crank-white);
+  color: var(--crank-black);
   text-transform: uppercase;
   letter-spacing: 0.1em;
   padding-left: 20px;
   font-weight: 600;
+  text-align: left;
 }
 
 .section-title__tagline:before {

@@ -14,7 +14,7 @@ const Cta = () => {
           <div className="section-title text-center sec-title-animation animation-style1">
             <div className="section-title__tagline-box" />
             <h2 className="section-title__title title-animation">
-              Steps
+            Our Franchise Process
               <br />
             </h2>
           </div>
@@ -32,7 +32,7 @@ const Cta = () => {
                   />
                   <div className="team-two__name-box">
                     <h3>
-                      <a href="team-details.html">Apply Online</a>
+                      <a href="team-details.html">01. Apply Online</a>
                     </h3>
                   </div>
                   <p className="team-two__text">
@@ -65,7 +65,7 @@ const Cta = () => {
                   />
                   <div className="team-two__name-box">
                     <h3>
-                      <a href="team-details.html">Initial Consultation</a>
+                      <a href="team-details.html">02. Initial Consultation</a>
                     </h3>
                   </div>
                   <p className="team-two__text">
@@ -90,7 +90,7 @@ const Cta = () => {
                   />
                   <div className="team-two__name-box">
                     <h3>
-                      <a href="team-details.html">Review & Discovery</a>
+                      <a href="team-details.html">03. Review & Discovery</a>
                     </h3>
                   </div>
                   <p className="team-two__text">
@@ -124,7 +124,7 @@ const Cta = () => {
                   />
                   <div className="team-two__name-box">
                     <h3>
-                      <a href="team-details.html">Approval & Agreement</a>
+                      <a href="team-details.html">04. Approval & Agreement</a>
                     </h3>
                   </div>
                   <p className="team-two__text">
@@ -149,7 +149,7 @@ const Cta = () => {
                   />
                   <div className="team-two__name-box">
                     <h3>
-                      <a href="team-details.html">Training & Setup</a>
+                      <a href="team-details.html">05. Training & Setup</a>
                     </h3>
                   </div>
                   <p className="team-two__text">
@@ -182,7 +182,7 @@ const Cta = () => {
                   />
                   <div className="team-two__name-box">
                     <h3>
-                      <a href="team-details.html">Launch Your Store</a>
+                      <a href="team-details.html">06. Launch Your Store</a>
                     </h3>
                   </div>
                   <p className="team-two__text">
@@ -207,7 +207,7 @@ const Cta = () => {
                   />
                   <div className="team-two__name-box">
                     <h3>
-                      <a href="team-details.html">Grow With Us</a>
+                      <a href="team-details.html">07. Grow With Us</a>
                     </h3>
                   </div>
                   <p className="team-two__text">
