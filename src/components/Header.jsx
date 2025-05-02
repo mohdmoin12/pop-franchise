@@ -46,6 +46,7 @@ const Header = () => {
                             objectFit: "contain",
                             transform: "scale(1.2)",
                             display: "block",
+                            marginLeft: isMobile ? "-50px" : "0" // Apply negative margin only on mobile
                           }}
                         />
                       </a>
@@ -55,7 +56,18 @@ const Header = () => {
                   {/* Center menu - hidden on mobile */}
                   <div className="main-menu__main-menu-box">
                     {isMobile ? (
-                      <a href="#" className="mobile-nav__toggler" onClick={(e) => { e.preventDefault(); toggleSidebar(); }}>
+                      <a 
+                        href="#" 
+                        className="mobile-nav__toggler" 
+                        onClick={(e) => { 
+                          e.preventDefault(); 
+                          toggleSidebar(); 
+                        }}
+                        style={{ 
+                          marginLeft: "auto", // Push the hamburger menu to the right
+                          padding: "10px 15px"
+                        }}
+                      >
                         <i className="fa fa-bars" />
                       </a>
                     ) : (
@@ -71,17 +83,19 @@ const Header = () => {
                   </div>
 
                   {/* Right side - social and CTA */}
-                  <div className="main-menu__right">
-                    <div className="main-menu__social">
-                      {/* Your social icons */}
+                  {!isMobile && (
+                    <div className="main-menu__right">
+                      <div className="main-menu__social">
+                        {/* Your social icons */}
+                      </div>
+                      <div className="cta-one__btn" style={{ fontSize: "11px" }}>
+                        <a href="#car-repair-form" className="thm-btn">
+                          Join POP Phones
+                          <span className="icon-arrow-up-right"></span>
+                        </a>
+                      </div>
                     </div>
-                    <div className="cta-one__btn" style={{ fontSize: "11px" }}>
-                      <a href="#car-repair-form" className="thm-btn">
-                        Join POP Phones
-                        <span className="icon-arrow-up-right"></span>
-                      </a>
-                    </div>
-                  </div>
+                  )}
                 </div>
               </div>
             </div>
