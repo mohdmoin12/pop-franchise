@@ -3,10 +3,10 @@ import React from "react";
 const Services = () => {
   return (
     <div id="services-section">
-      <section className="services-one">
+      <section className="services-one mt-4">
         <div className="services-one__inner">
           <div className="container">
-            <div className="section-title text-center sec-title-animation animation-style1">
+            <div className="section-title text-center sec-title-animation animation-style1 mt-4">
               <div className="section-title__tagline-box">
                 <span className="text-black">Why Us? </span>
               </div>
@@ -14,10 +14,10 @@ const Services = () => {
                 Why Franchise with Pop Phones? <br />
               </h2>
             </div>
-            <div className="row">
+            <div className="row mt-4">
               {/*Services One Single Start*/}
               <div
-                className="col-xl-4 col-lg-4 wow fadeInLeft"
+                className="col-xl-4 col-lg-4 wow fadeInLeft mt-4"
                 data-wow-delay="100ms"
               >
                 <div className="services-one__single h-100">
@@ -42,7 +42,7 @@ const Services = () => {
               {/*Services One Single End*/}
               {/*Services One Single Start*/}
               <div
-                className="col-xl-4 col-lg-4 wow fadeInUp"
+                className="col-xl-4 col-lg-4 wow fadeInUp mt-4"
                 data-wow-delay="200ms"
               >
                 <div className="services-one__single h-100">
@@ -70,7 +70,7 @@ const Services = () => {
               {/*Services One Single End*/}
               {/*Services One Single Start*/}
               <div
-                className="col-xl-4 col-lg-4 wow fadeInRight"
+                className="col-xl-4 col-lg-4 wow fadeInRight mt-4"
                 data-wow-delay="300ms"
               >
                 <div className="services-one__single h-100">
@@ -92,7 +92,7 @@ const Services = () => {
               </div>
               <div className="d-flex justify-content-center w-100 mt-4">
                 <div
-                  className="col-xl-4 col-lg-4 wow fadeInLeft mx-2"
+                  className="col-xl-4 col-lg-4 wow fadeInLeft mx-2 mt-4"
                   data-wow-delay="300ms"
                 >
                   <div className="services-one__single h-100">
@@ -113,7 +113,7 @@ const Services = () => {
                   </div>
                 </div>
                 <div
-                  className="col-xl-4 col-lg-4 wow fadeInRight mx-2"
+                  className="col-xl-4 col-lg-4 wow fadeInRight mx-2 mt-4"
                   data-wow-delay="300ms"
                 >
                   <div className="services-one__single h-100">

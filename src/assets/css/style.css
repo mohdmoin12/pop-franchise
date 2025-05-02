@@ -308,7 +308,7 @@ ul {
   font-size: 45px;
   line-height: 55px;
   font-weight: 600;
-  margin: 49px 0 0;
+  /* margin: 49px 0 0; */
   color: #F4F4F4;
 }
 
@@ -2357,7 +2357,7 @@ input {
   
   @media (max-width: 480px) {
     .main-slider {
-      padding: 40px 0;
+      padding: 0px 0;
     }
   
     .main-slider__title {

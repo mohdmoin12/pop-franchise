@@ -55,7 +55,7 @@ const MainSlider = () => {
                         <span className="icon-arrow-up-right ms-2" />
                       </a>
                     </div>
-                    <div className="main-slider__video-link">
+                    <div className="main-slider__video-link ">
                       <a
                         href="https://onedrive.live.com/?qt=allmyphotos&photosData=%2Fshare%2F96E58F82474A0F0A%21s064475f36360429a8fae1db7518ffad6%3Fithint%3Dvideo%26web%3D1%26migratedtospo%3Dtrue&sw=bypassConfig&cid=96E58F82474A0F0A&id=96E58F82474A0F0A%21s064475f36360429a8fae1db7518ffad6&redeem=aHR0cHM6Ly8xZHJ2Lm1zL3YvYy85NmU1OGY4MjQ3NGEwZjBhL0VmTjFSQVpnWTVwQ2o2NGR0MUdQLXRZQkxuY1VFQmxuQzRHcm9fZFBtREhvRXc%5Fd2ViPTE&v=photos"
                         className="video-popup"

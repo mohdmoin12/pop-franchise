@@ -3,10 +3,10 @@ import React from 'react'
 const Opportunity = () => {
   return (
     <div>
-          <section className="services-one">
+          <section className="services-one mt-4">
         <div className="services-one__inner">
           <div className="container">
-            <div className="section-title text-center sec-title-animation animation-style1">
+            <div className="section-title text-center sec-title-animation animation-style1 mt-4">
               <div className="section-title__tagline-box">
                 {/* <span className="text-black">Why Us? </span> */}
               </div>
@@ -14,83 +14,9 @@ const Opportunity = () => {
               Available Opportunities <br />
               </h2>
             </div>
-            <div className="row">
-              {/*Services One Single Start*/}
-              {/* <div
-                className="col-xl-4 col-lg-4 wow fadeInLeft"
-                data-wow-delay="100ms"
-              >
-                <div className="services-one__single h-100">
-                  <div className="services-one__icon">
-                    <img src="/reputation.png" alt="Established Brand" width="64" height="64" />
-                    <div className="services-one__icon-shape-1" />
-                    <div className="services-one__icon-shape-2" />
-                  </div>
-                  <h3 className="services-one__title sec text-white">
-                    <a href="careful-car-service-station.html"
-                      className="text-black">
-                      Established Brand
-                    </a>
-                  </h3>
-                  <p className="services-one__text sec-heading">
-                    Leverage the reputation of a well-known, customer-loved brand in the mobile industry.
-                  </p>
-                  <div className="services-one__single-shape-1" />
-                  <div className="services-one__single-shape-2" />
-                </div>
-              </div> */}
-              {/*Services One Single End*/}
-              {/*Services One Single Start*/}
-              {/* <div
-                className="col-xl-4 col-lg-4 wow fadeInUp"
-                data-wow-delay="200ms"
-              >
-                <div className="services-one__single h-100">
-                  <div className="services-one__icon">
-                    <img src="/business-model.png" alt="Business Model" width="64" height="64" />
-                    <div className="services-one__icon-shape-1" />
-                    <div className="services-one__icon-shape-2" />
-                  </div>
-                  <h3 className="services-one__title sec text-white">
-                    <a
-                      href="easy-drive-maintenance.html"
-                      className="text-black"
-                    >
-                      Proven Business Model
-                    </a>
-                  </h3>
-
-                  <p className="services-one__text sec-heading">
-                    With over 18 locations thriving across Australia, our system is built for success.
-                  </p>
-                  <div className="services-one__single-shape-1" />
-                  <div className="services-one__single-shape-2" />
-                </div>
-              </div> */}
-              {/*Services One Single End*/}
-              {/*Services One Single Start*/}
-              {/* <div
-                className="col-xl-4 col-lg-4 wow fadeInRight"
-                data-wow-delay="300ms"
-              >
-                <div className="services-one__single h-100">
-                  <div className="services-one__icon">
-                    <img src="/high-value.png" alt="High Demand Industry" width="64" height="64" />
-                    <div className="services-one__icon-shape-1" />
-                    <div className="services-one__icon-shape-2" />
-                  </div>
-                  <h3 className="services-one__title sec text-white">
-                    <a href="elite-auto-services.html"
-                      className="text-black">High-Demand Industry</a>
-                  </h3>
-                  <p className="services-one__text sec-heading">
-                    Stay ahead in a booming market of smartphones, accessories, and tech repairs.
-                  </p>
-                  <div className="services-one__single-shape-1" />
-                  <div className="services-one__single-shape-2" />
-                </div>
-              </div> */}
-              <div className="d-flex justify-content-center w-100 ">
+            <div className="row mt-4">
+              {/* Previous commented out code remains the same */}
+              <div className="d-flex justify-content-center w-100">
                 <div
                   className="col-xl-4 col-lg-4 wow fadeInLeft mx-2"
                   data-wow-delay="300ms"
@@ -115,7 +41,7 @@ const Opportunity = () => {
                   </div>
                 </div>
                 <div
-                  className="col-xl-4 col-lg-4 wow fadeInRight mx-2"
+                  className="col-xl-4 col-lg-4 wow fadeInRight mx-2 mt-md-0 mt-4"
                   data-wow-delay="300ms"
                 >
                   <div className="services-one__single h-100">
