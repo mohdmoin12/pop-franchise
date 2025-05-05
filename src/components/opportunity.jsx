@@ -2,7 +2,7 @@ import React from 'react'
 
 const Opportunity = () => {
   return (
-    <div>
+    <div id="opportunity-section">
           <section className="services-one mt-4">
         <div className="services-one__inner">
           <div className="container">

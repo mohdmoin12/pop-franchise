@@ -71,8 +71,15 @@
 
 .active .main-slider__title {
     opacity: 1;
+    font-size: 72px !important;
     /* transform: translateX(0); */
     /* transition-delay: 800ms; */
+}
+@media (max-width: 768px) {
+    .active .main-slider__title {
+        font-size: 36px !important; /* Adjust as needed for smaller screens */
+        text-align: center;
+    }
 }
 
 .main-slider__text {

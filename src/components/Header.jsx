@@ -75,8 +75,8 @@ const Header = () => {
                         {/* Your existing desktop menu items */}
                         <li><a href="#services-section">Why Us?</a></li>
                         <li><a href="#about-section">Offerings</a></li>
-                        <li><a href="#opportunities-section">Opportunities</a></li>
-                        <li><a href="#gallary-section">Gallery</a></li>
+                        <li><a href="#opportunity-section">Opportunities</a></li>
+                        <li><a href="#gallery-section">Gallery</a></li>
                         <li><a href="#Faq-section">FAQs</a></li>
                       </ul>
                     )}
@@ -89,7 +89,7 @@ const Header = () => {
                         {/* Your social icons */}
                       </div>
                       <div className="cta-one__btn" style={{ fontSize: "11px" }}>
-                        <a href="#car-repair-form" className="thm-btn">
+                        <a href="#join-pop-phones" className="thm-btn">
                           Join POP Phones
                           <span className="icon-arrow-up-right"></span>
                         </a>

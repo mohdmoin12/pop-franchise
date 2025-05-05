@@ -2230,6 +2230,10 @@ ul {
 .carousel-dot-style.owl-carousel .owl-dots .owl-dot span {
   display: none;
 }
+.mob
+{
+  display: none !important;
+}
 
 
 
@@ -2312,7 +2316,7 @@ input {
     }
   
     .main-slider__text-content {
-      padding-right: 0;
+      /* padding-right: 0; */
       padding-bottom: 30px;
     }
   
@@ -2652,3 +2656,76 @@ color: black;
 .mt{
   margin-top: 55px !important;
 }
+
+
+
+.main-slider__text-content {
+  margin-top: calc(180px + 10vw);
+  margin-bottom: calc(180px + 10vw);
+}
+
+@media (max-width: 768px) {
+  .main-slider__text-content {
+    margin-bottom: 125px !important; /* or whatever smaller value suits mobile */
+  }
+}
+
+@media (max-width: 400px) {
+  .counter-one__list {
+    display: grid !important;
+    grid-template-columns: repeat(2, 1fr) !important;
+    gap: 0px !important;
+    justify-items: center;
+    padding-left: 0px !important;
+  }
+  .mob
+  {
+    display: block !important;
+  }
+  .desk
+  {
+    display: none;
+  }
+  .counter-one__list li
+  {
+    margin-bottom: 0px!important;
+    
+  }
+  .counter-one__text
+  {
+    margin-top: -10px !important;
+  }
+  .counter-one__list
+  {
+    padding-bottom: 20px !important;
+  }
+  .counter-one__single {
+    background: #fff;
+    padding: 16px;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: none !important; /* Removed box shadow */
+  }
+
+  .counter-one__count-box {
+    font-size: 40px !important; /* Apply font size to entire box */
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+    font-weight: 700;
+    
+  }
+
+  .counter-one__count-box h3,
+  .counter-one__count-box span {
+    font-size: inherit !important; /* Match h3 and span font sizes */
+    margin: 0;
+    padding: 0;
+  }
+
+  .counter-one__text {
+    font-size: 16px !important;
+  }
+}
+

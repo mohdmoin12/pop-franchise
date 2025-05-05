@@ -220,7 +220,6 @@
 // };
 
 // export default MainSlider;
-
 import React from "react";
 import OwlCarousel from "react-owl-carousel";
 import "owl.carousel/dist/assets/owl.carousel.css";
@@ -240,7 +239,7 @@ const MainSlider = () => {
         >
           {/* Slide 1 */}
           <div>
-            {/* Video Background - Only added Bootstrap positioning classes */}
+            {/* Video Background with responsive classes */}
             <div className="position-absolute top-0 start-0 w-100 h-100">
               <video
                 autoPlay
@@ -258,47 +257,38 @@ const MainSlider = () => {
               ></div>
             </div>
 
-            {/* Your original content - NO CLASSES CHANGED */}
+            {/* Main content with responsive classes */}
             <div className="main-slider__shape-1">
               <div className="d-none d-lg-block"></div>
             </div>
             <div className="container">
               <div className="main-slider__content row align-items-center">
                 <div
-                  className="main-slider__text-content col-12 col-md-12 text-center d-flex flex-column align-items-center justify-content-center"
-                  style={{ marginTop: "360px", marginBottom: "368px" }}
+                  className="main-slider__text-content col-12 text-center d-flex flex-column align-items-center justify-content-center"
+                  style={{ 
+                    marginTop: "calc(180px + 10vw)", 
+                    marginBottom: "calc(180px + 10vw)"
+                  }}
                 >
-                  <h2 className="main-slider__title mb-3">
+                  <h2 className="main-slider__title mb-3 fs-1 fs-md-2 fs-lg-1">
                     OWN A <span className="highlight">POP PHONES</span>{" "}
                     FRANCHISE
                   </h2>
 
-                  <p className="main-slider__text mb-4">
+                  <p className="main-slider__text mb-4 px-2 px-md-0">
                     Be Part of One of Australia's Fastest Growing
-                    <br/> Mobile Phone &
+                    <br className="d-none d-md-block"/> Mobile Phone &
                     Accessories Brands
                   </p>
 
-                  <div className="d-flex flex-column flex-sm-row align-items-center gap-5 mb-4">
-                    <div className="main-slider__btn-box">
+                  <div className="d-flex flex-column flex-sm-row align-items-center gap-3 gap-sm-5 mb-4 px-3">
+                    <div className="main-slider__btn-box w-100 w-sm-auto">
                       <a
-                        href="#car-repair-form"
-                        className="thm-btn btn btn-primary"
+                        href="#join-pop-phones"
+                        className="thm-btn btn btn-primary w-100 w-sm-auto"
                       >
                         Join POP Phones
                         <span className="icon-arrow-up-right ms-2" />
-                      </a>
-                    </div>
-
-                    <div className="main-slider__video-link">
-                      <a
-                        href="https://onedrive.live.com/?qt=allmyphotos&photosData=%2Fshare%2F96E58F82474A0F0A%21s064475f36360429a8fae1db7518ffad6%3Fithint%3Dvideo%26web%3D1%26migratedtospo%3Dtrue&sw=bypassConfig&cid=96E58F82474A0F0A&id=96E58F82474A0F0A%21s064475f36360429a8fae1db7518ffad6&redeem=aHR0cHM6Ly8xZHJ2Lm1zL3YvYy85NmU1OGY4MjQ3NGEwZjBhL0VmTjFSQVpnWTVwQ2o2NGR0MUdQLXRZQkxuY1VFQmxuQzRHcm9fZFBtREhvRXc%5Fd2ViPTE&v=photos"
-                        className="video-popup"
-                      >
-                        <div className="main-slider__video-icon">
-                          <span className="icon-video" />
-                          <i className="ripple" />
-                        </div>
                       </a>
                     </div>
                   </div>

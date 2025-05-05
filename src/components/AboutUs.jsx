@@ -16,7 +16,7 @@ const AboutUs = () => {
               <div className="about-one__left">
                 <div className="section-title text-left sec-title-animation animation-style2">
                   <div className="section-title__tagline-boxx">
-                    <span className="text-black ">AboUt Us</span>
+                    <span className="text-black ">About Us</span>
                   </div>
                   <h2 className="about-one__text-1 ">What We Offer</h2>
                 </div>

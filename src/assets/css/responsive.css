@@ -945,7 +945,7 @@
     }
 
     .counter-one__inner {
-        padding: 33px 15px 29px;
+        padding:0;
     }
 
     .counter-one__list {
@@ -961,7 +961,8 @@
     }
 
     .services-one__inner {
-        padding: 90px 0px 60px;
+        /* padding: 90px 0px 60px; */
+        margin: 0px auto 0;
     }
 
     .about-one__text-1 br {
@@ -1032,7 +1033,8 @@
     }
 
     .testimonial-one__wrap {
-        padding: 90px 0px 60px;
+        padding: 0px 0px 60px;
+        margin: 0px auto 0;
     }
 
     .team-one__content {
@@ -1982,11 +1984,12 @@
     }
 
     .contact-one {
-        padding: 60px 0 90px;
+        padding: 0px 0 90px;
+        margin-top: 0px!important;
     }
 
     .blog-one {
-        padding: 60px 0 60px;
+        /* padding: 60px 0 60px; */
     }
 
     .about-two {
@@ -1994,7 +1997,7 @@
     }
 
     .team-two {
-        padding: 90px 0 60px;
+        padding: 43px 0 60px;
     }
 
     .gallery-two {
@@ -2601,7 +2604,7 @@
     }
 
     .main-slider__text  {
-        text-align: left !important;
+        text-align: center !important;
     }
 
     .main-slider__btn-and-video-box {
