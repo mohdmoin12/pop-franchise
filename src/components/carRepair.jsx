@@ -165,22 +165,26 @@ const CarRepair = () => {
               data-wow-delay="100ms"
               data-wow-duration="2500ms"
             >
-              <div className="contact-one__right h-100 position-relative">
-                <div className="contact-one__img h-100 w-100 overflow-hidden rounded-5">
-                  <img 
-                    src="/resources/repair.jpg" 
-                    alt="Car Repair" 
-                    className="w-100 h-100 object-fit-cover"
-                  />
-                  <div className="contact-one__img-shape-1 position-absolute">
-                    <img
-                      src="/shapes/contact-one-img-shape-1.png"
-                      alt=""
-                      className="img-fluid"
-                    />
-                  </div>
-                </div>
-              </div>
+               <div className="contact-one__right position-relative" style={{ height: '817px' }}>
+  <div className="contact-one__img h-100 w-100 overflow-hidden rounded-lg">
+    <video 
+      src="/pop1.mp4" 
+      className="w-full h-full object-cover"
+      controls
+      autoPlay
+      muted
+      loop
+    />
+    <div className="contact-one__img-shape-1 absolute">
+      <img
+        src="/shapes/contact-one-img-shape-1.png"
+        alt=""
+        className="img-fluid"
+      />
+    </div>
+  </div>
+</div>
+
             </div>
           </div>
         </div>
